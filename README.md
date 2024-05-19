@@ -1,9 +1,17 @@
-🔌 # Executable-Weight-Adjuster
+🔌 Executable-Weight-Adjuster
+
+
  This program allows you to add weight to another program. First, specify the path to your .exe file, then choose to add weight or decrease the weight of the file - you're done! Good luck using the program!
+
+
 📱 Screenshots
 ![image](https://github.com/Lightweith/Executable-Weight-Adjuster/assets/170258245/5155d8be-b864-4e8a-8b7e-322999df2151)
 
-❓ # How it Works?
+
+
+❓ How it Works?
+
+
 void increaseWeight(const string& filePath, int kbToAdd) {
     // Open the file for reading in binary mode
     ifstream file(filePath, ios::binary | ios::ate);
